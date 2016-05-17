@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED187950-9062-47A1-B1BA-116F84BEC4BE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusApp</RootNamespace>
+    <AssemblyName>BusApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Booking.aspx" />
+    <Content Include="BookingDetails.aspx" />
+    <Content Include="Images\AdminLogo.png" />
+    <Content Include="Images\adminNewlogo.png" />
+    <Content Include="Images\advertover.gif" />
+    <Content Include="Images\advertup.gif" />
+    <Content Include="Images\back.png" />
+    <Content Include="Images\banner1.jpg" />
+    <Content Include="Images\banner2.jpg" />
+    <Content Include="Images\banner3.jpg" />
+    <Content Include="Images\banner4.jpg" />
+    <Content Include="Images\banner5.jpg" />
+    <Content Include="Images\banner7.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg01.png" />
+    <Content Include="Images\bg_h.png" />
+    <Content Include="Images\bu01.png" />
+    <Content Include="Images\bullet.gif" />
+    <Content Include="Images\Business-survey.png" />
+    <Content Include="Images\buttion.png" />
+    <Content Include="Images\button.png" />
+    <Content Include="Images\buttonbg.png" />
+    <Content Include="Images\b_bg_01.gif" />
+    <Content Include="Images\b_bg_02.gif" />
+    <Content Include="Images\Calendar.png" />
+    <Content Include="Images\chart.jpg" />
+    <Content Include="Images\Complete-Current-Assessment.png" />
+    <Content Include="Images\content_new_bg.png" />
+    <Content Include="Images\Course_detail.png" />
+    <Content Include="Images\course_registration.png" />
+    <Content Include="Images\curve.gif" />
+    <Content Include="Images\curvegraph.gif" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\footerbg.jpg" />
+    <Content Include="Images\GetCourseDetail.png" />
+    <Content Include="Images\GetCourseRegistrationDetail.png" />
+    <Content Include="Images\GetCourseRegistrations.png" />
+    <Content Include="Images\GetCourseRegistrationsByDateRange.png" />
+    <Content Include="Images\GetCourseRegistrationsByGroup.png" />
+    <Content Include="Images\GetCourseRegistrationsByGroupDateRange.png" />
+    <Content Include="Images\GetCourseRegistrationsByUser.png" />
+    <Content Include="Images\GetCourseRegistrationsByUserDateRange.png" />
+    <Content Include="Images\GetCourses.png" />
+    <Content Include="Images\GetCoursesByGroup.png" />
+    <Content Include="Images\GetUserDetail.png" />
+    <Content Include="Images\GetUsers.png" />
+    <Content Include="Images\GetUsersByDateRange.png" />
+    <Content Include="Images\GetUsersByGroup.png" />
+    <Content Include="Images\GetUsersByGroupDateRange.png" />
+    <Content Include="Images\header.jpg" />
+    <Content Include="Images\index.jpg" />
+    <Content Include="Images\information_symbol.png" />
+    <Content Include="Images\intro.jpg" />
+    <Content Include="Images\left_over.gif" />
+    <Content Include="Images\left_up.gif" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo02.png" />
+    <Content Include="Images\logo_HMSDC.png" />
+    <Content Include="Images\mangement_Survey.png" />
+    <Content Include="Images\map.jpg" />
+    <Content Include="Images\member.png" />
+    <Content Include="Images\nav.png" />
+    <Content Include="Images\navbg.png" />
+    <Content Include="Images\navbgf.png" />
+    <Content Include="Images\new_AdminLogo.png" />
+    <Content Include="Images\new_bg01.png" />
+    <Content Include="Images\new_bg02.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\page.png" />
+    <Content Include="Images\pagebg.jpg" />
+    <Content Include="Images\reset.png" />
+    <Content Include="Images\save_button.png" />
+    <Content Include="Images\slogan.gif" />
+    <Content Include="Images\Start-New-Assessment.png" />
+    <Content Include="Images\user_details.png" />
+    <Content Include="Images\View-Current-Report.png" />
+    <Content Include="Images\View-Last-Complete-Report.png" />
+    <Content Include="Images\View-Previous-Reports.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Registration.aspx" />
+    <Content Include="Style\Calander.css" />
+    <Content Include="Style\homestyle.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookingDetails.aspx.cs">
+      <DependentUpon>BookingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookingDetails.aspx.designer.cs">
+      <DependentUpon>BookingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Script\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23325</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
